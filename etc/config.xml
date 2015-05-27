@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Mage/Store/etc/config.xsd">
+    <default>
+        <mzeis_mm15nl>
+            <talks>
+                <title>MM15NL talks</title>
+            </talks>
+        </mzeis_mm15nl>
+    </default>
+</config>

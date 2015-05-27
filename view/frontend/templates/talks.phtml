@@ -1,0 +1,6 @@
+<?php /** @var $block \Mzeis\Mm15nl\Block\Talks */ ?>
+<h1><?php echo $block->escapeHtml($block->getTitle()); ?></h1>
+<?php if ($block->getProduct()->getId()): ?>
+    <?php $_name = $this->helper('Magento\Catalog\Helper\Output')->productAttribute($block->getProduct(), $block->getProduct()->getName(), 'name'); ?>
+    <p><?php echo __('Purchase our talk product %1!', $_name); ?></p>
+<?php endif; ?>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../lib/internal/Magento/Framework/App/etc/routes.xsd">
+    <router id="standard">
+        <route id="mzeis_mmnl" frontName="mm15nl">
+            <module name="Mzeis_Mm15nl" />
+        </route>
+    </router>
+</config>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- note:
+     the file is called mzeis_mmnl_index_index.xml and not
+     mzeis_mm15nl_index_index.xml because Magento 2 didn't allow numbers in
+     the route at the time of writing.
+     @see https://github.com/magento/magento2/issues/1290
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="2columns-left" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+
+    <body>
+        <container name="mzeis.mm15nl.container" />
+
+        <referenceContainer name="content">
+           <block class="Mzeis\Mm15nl\Block\Talks" name="mzeis.mm15nl.talks" template="talks.phtml" />
+        </referenceContainer>
+
+        <referenceContainer name="root">
+            <block class="Mzeis\Mm15nl\Block\Info" name="mzeis.mm15nl.info" />
+        </referenceContainer>
+    </body>
+</page>
