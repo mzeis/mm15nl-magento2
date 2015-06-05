@@ -24,7 +24,7 @@ Then, add the repository to your repositories list:
         ...
         "repositories": [
             ...,
-            {
+            "zeis" : {
                 "type": "vcs",
                 "url": "https://github.com/mzeis/Mm15nl_Magento2.git"
             }
